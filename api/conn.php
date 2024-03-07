@@ -1,5 +1,5 @@
 <?php
-$username = "root";
+$username = "user";
 $password = "root";
 $database = "aquario";
 $host = "192.168.0.137";
