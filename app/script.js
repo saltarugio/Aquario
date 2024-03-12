@@ -105,7 +105,7 @@ next_btn.onclick = ()=>{
 
 // Função para carregar perguntas do servidor
 function loadQuestions() {
-    fetch('http://192.168.0.137/aquario/api/index.php', {
+    fetch('http://localhost/aquario/api/index.php', {
         method: 'GET'
     }).then(response => {
         
